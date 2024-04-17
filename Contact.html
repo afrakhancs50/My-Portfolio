@@ -95,12 +95,13 @@
     margin-bottom: 10px;
   }
   .experience-item {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 15px;
   }
   .company-info {
     display: flex;
     align-items: center;
-    margin-bottom: 5px;
   }
   .company-info h3 {
     margin-right: 10px;
@@ -108,8 +109,10 @@
   .job-title {
     font-weight: bold;
   }
-  .dates {
+  .dates,
+  .location {
     color: #888;
+    font-style: italic;
   }
   .duties {
     padding-left: 20px;
@@ -123,8 +126,8 @@
     <div class="experience-item">
       <div class="company-info">
         <h3>CAD Dzigner</h3>
+        <span class="location">Mumbai, India</span>
         <span class="dates">12/2023 - Present</span>
-        <span class="location">, Mumbai, India</span>
       </div>
       <h4 class="job-title">Data Analyst & BDO</h4>
       <ul class="duties">
@@ -138,8 +141,8 @@
     <div class="experience-item">
       <div class="company-info">
         <h3>Medius.ai</h3>
+        <span class="location">Mumbai, India</span>
         <span class="dates">07/2023 - 11/2023</span>
-        <span class="location">, Mumbai, India</span>
       </div>
       <h4 class="job-title">Data Analyst (Internship)</h4>
       <ul class="duties">
@@ -153,4 +156,3 @@
     </div>
 </body>
 </html>
-	
